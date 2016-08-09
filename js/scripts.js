@@ -1,6 +1,26 @@
 $(document).ready(function() {
   $("#cell1").click(function(){
-    $(".word").toggle();
-    $(".text").toggle();
+    $("#word1").toggle();
+    $("#text1").toggle();
+  });
+  $("#cell2").click(function(){
+    $("#word2").toggle();
+    $("#text2").toggle();
+  });
+  $("#cell3").click(function(){
+    $("#word3").toggle();
+    $("#text3").toggle();
+  });
+  $("#cell4").click(function(){
+    $("#word4").toggle();
+    $("#text4").toggle();
+  });
+  $("#cell5").click(function(){
+    $("#word5").toggle();
+    $("#text5").toggle();
+  });
+  $("#cell6").click(function(){
+    $("#word6").toggle();
+    $("#text6").toggle();
   });
 });
